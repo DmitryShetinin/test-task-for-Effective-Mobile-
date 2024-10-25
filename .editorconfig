@@ -1,0 +1,7 @@
+[*.cs]
+
+# CS8600: Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL.
+dotnet_diagnostic.CS8600.severity = none
+
+# CS8601: Возможно, назначение-ссылка, допускающее значение NULL.
+dotnet_diagnostic.CS8601.severity = silent
